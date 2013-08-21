@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple jQuery</title>
+    <link rel="stylesheet" type="text/css" href="css/rainbow/themes/rainbow-page.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-simpleslider.css" />
+</head>
+<body>
+    <div class="page-top">
+        <div class="contents">
+            <h1>Simple jQuery</h1>
+        </div>
+    </div>
+    <div id="slider" class="page-featured">
+        <div class="page-featured-content">
+            <img src="http://dormousegames.com/wp-content/themes/dmg/images/Banner01.png" />
+        </div>
+        <div class="page-featured-content">
+            <img src="http://prod.assets.thebanner.s3.amazonaws.com/styles/article-large/s3/article/large/4148.jpg?itok=XEgAFjKR" />
+        </div>
+        <div class="page-featured-content">
+            <img src="http://i48.tinypic.com/2ivlkl3.jpg" />
+        </div>
+    </div>
+    <div class="page-contents">
+        <h1 class="title">Simple jQuery</h1>
+        <p>Simple jQuery es un proyecto que busca recompilar las funcionalidades y estilos css comúnmente usados en el desarrollo de aplicaciones web con jQuery. Este proyecto tiene como finalidad servir, no solo como fuente de scripts, sino tambien como base de aprendizaje y ejemplos de desarrollo con jquery.</p>
+        <div class="blocks">
+            <div class="block3">
+                <div class="ui-widget ui-widget-content ui-corner-all panel">
+                    <div class="ui-widget-header ui-corner-top">Configuración de componentes.</div>
+                    <div class="panel-contents"><p>Deseas agregar un componente de jQuery a tu aplicación? Un botón? necesitas llamar a la función <code>$().button();</code> solo para inicializarlo?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block3">
+                <div class="ui-widget ui-widget-content ui-corner-all panel">
+                    <div class="ui-widget-header ui-corner-top">Experiencia completa</div>
+                    <div class="panel-contents"><p>Haz agregado componentes de jQuery UI y no completan la experiencia? Estas agregando tablas, paneles y otros componentes y no concuerdan los estilos con los componentes de jQuery? Utiliza nuestras clases y haremos todo lo posible para concordar con los estilos de los temas de jQuery UI.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block3">
+                <div class="ui-widget ui-widget-content ui-corner-all panel">
+                    <div class="ui-widget-header ui-corner-top">Estilos para tu Web</div>
+                    <div class="panel-contents">
+                        <p>Hay ciertas cosas que te gustan hacer para el desarrollo de tu web, pero tienes que estar configurandalas a cada rato? Utiliza algunos de los estelidos prdeterminados!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block3">
+                <div class="ui-widget ui-widget-content ui-corner-all panel">
+                    <div class="ui-widget-header ui-corner-top">Roll Your Theme</div>
+                    <div class="panel-contents">
+                        <p>Compatible con los temas de jQuery UI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="page-foot">&copy; 2013</div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/rainbow.min.js"></script>
+    <script type="text/javascript" src="js/jquery-simpleslider.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slider').simpleSlider();
+        });
+    </script>
+</body>
+</html>

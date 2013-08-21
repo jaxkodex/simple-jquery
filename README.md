@@ -1,4 +1,4 @@
-simple-jquery
-=============
+jquery-4u
+=========
 
-Simple jQuery es un proyecto que busca recompilar las funcionalidades y estilos css comúnmente usados en el desarrollo de aplicaciones web con jQuery. Este proyecto tiene como finalidad servir, no solo como fuente de scripts, sino tambien como base de aprendizaje y ejemplos de desarrollo con jquery.
+Este proyecto tiene algunas de las configuraciones que se tienen que hacer cada vez que se configura un proyecto con jQuery y jQuery UI.
